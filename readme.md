@@ -9,12 +9,11 @@
 
 <div align="center">
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=NavajasThomaz&repo=Pygamespoo&theme=transparent)](https://github.com/NavajasThomaz/Pygamespoo)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=NavajasThomaz&repo=PygamesPOO&theme=transparent)](https://github.com/NavajasThomaz/PygamesPOO)
 
 </div>
 
 
-### <div align="center">Autores</div>
 
 ### <div align="center">Thomaz Colalillo Navajas - 140560</div>
 <div style="display: inline_block", align="center">
@@ -22,14 +21,6 @@
     <a href="www.linkedin.com/in/thomaz-navajas" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
     <a href="https://github.com/NavajasThomaz" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank"></a>
     <a href="https://www.kaggle.com/thomaznavajas" target="_blank"><img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white" target="_blank"></a>
-
-</div>
-
-### <div align="center">Denise Valéria velarde - 157670</div>
-<div style="display: inline_block", align="center">
-    <a href = "mailto:denise.velarde1@outlook.com"><img src="https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white" target="_blank"></a>
-    <a href="www.linkedin.com/in/thomaz-navajas" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
-    <a href="https://github.com/DeniseValeriaVelarde" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank"></a>
 
 </div>
 <div>
@@ -50,7 +41,7 @@
 # Introdução</summary>
 
 ### Objetivo
-O projeto visa implementar um programa em OpenGL que renderiza um cubo personalizado com a logo do C3. O cubo é renderizado com iluminação e tonalização, e é possível interagir com ele, movendo-o, rotacionando-o e escalonando-o.
+O projeto visa implementar um programa em PyGames que renderiza uma tela personalizada com a capacidade de aceitar classes customizadas. O cubo é renderizado com iluminação e tonalização, e é possível interagir com ele, movendo-o, rotacionando-o e escalonando-o.
 
 ### Ferramentas
 <div style=display:inline-block>
@@ -71,7 +62,7 @@ Bibliotecas como GLM w GLFW para gerenciar janelas, eventos, operações de veto
 </div>
 </details>
 
-
+https://drive.google.com/file/d/13srzcwzpOeTazTBZgbHbo_Yagwuhpp2l/view?usp=drive_link
 
 
 <details open>
@@ -83,6 +74,15 @@ Bibliotecas como GLM w GLFW para gerenciar janelas, eventos, operações de veto
 Essa seção explica o passo a passo da implementação do programa em OpenGL.
 
 1. **Bibliotecas utilizadas:** Na introdução falamos sobre as ferramentas que utilizamos e aqui mostraremos as bibliotecas utilizadas importadas no inicio do código.
+```Console
+python -m venv venv
+```
+```Console
+venv/Scripts/activate
+```
+```Console
+python main.py
+```
 ```Python
 import glfw  # Importa a biblioteca GLFW para criar janelas e gerenciar eventos
 import imgui  # Importa a biblioteca ImGui para criar interfaces gráficas
